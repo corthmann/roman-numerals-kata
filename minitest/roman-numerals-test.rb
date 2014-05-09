@@ -1,6 +1,8 @@
 require 'minitest/autorun'
 require_relative 'roman-numerals'
 
+# Rules: http://www.factmonster.com/ipka/A0769547.html
+
 describe 'RomanNumerals' do
   it 'returns I for 1' do
     roman = RomanNumerals.decimal_to_roman(1)
