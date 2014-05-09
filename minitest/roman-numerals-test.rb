@@ -5,5 +5,10 @@ describe 'RomanNumerals' do
   it 'returns I for 1' do
     roman = RomanNumerals.decimal_to_roman(1)
     assert_equal('I', roman)
-  end  
+  end
+
+  it 'returns IV for 4' do
+    roman = RomanNumerals.decimal_to_roman(4)
+    assert_equal('IV', roman)
+  end
 end
