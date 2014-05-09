@@ -31,6 +31,9 @@ directories.
 More information about roman numerals can be found here:
 http://www.novaroma.org/via_romana/numbers.html
 
+Complete rules can be found here:
+http://www.factmonster.com/ipka/A0769547.html
+
 
 
 ## Javascript, Busterjs
