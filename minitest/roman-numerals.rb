@@ -6,10 +6,7 @@ class RomanNumerals
 
   def self.decimal_to_roman number
     result = ''
-    if number <= 3
-      number.times do |index|
-        result += ROMAN[:one]
-      end
-    end
+    number.times {|index| result += ROMAN[:one] } if number <= 3
+    result
   end
 end
