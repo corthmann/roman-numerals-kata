@@ -12,6 +12,11 @@ describe 'RomanNumerals' do
     assert_equal('IV', roman)
   end
 
+  it 'returns VI for 6' do
+    roman = RomanNumerals.decimal_to_roman(6)
+    assert_equal('VI', roman)
+  end
+
   it 'returns IX for 9' do
     roman = RomanNumerals.decimal_to_roman(9)
     assert_equal('IX', roman)
